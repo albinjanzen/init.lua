@@ -172,7 +172,6 @@ local function jdtls_setup(event)
   local cmd = {
     -- 💀
     'java',
-
     '-Declipse.application=org.eclipse.jdt.ls.core.id1',
     '-Dosgi.bundles.defaultStartLevel=4',
     '-Declipse.product=org.eclipse.jdt.ls.core.product',
