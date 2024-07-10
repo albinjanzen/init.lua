@@ -20,7 +20,6 @@ return {
           lsp_zero.default_keymaps({buffer = bufnr})
         end)
 
-        lsp_zero.setup()
         --- if you want to know more about lsp-zero and mason.nvim
         --- read this: https://github.com/VonHeikemen/lsp-zero.nvim/blob/v3.x/doc/md/guide/integrate-with-mason-nvim.md
         require('mason').setup({})
